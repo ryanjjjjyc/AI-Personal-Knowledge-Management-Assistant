@@ -1,0 +1,6 @@
+.env
+/RAG/__pycache__/
+/backend/__pycache__/
+/db/
+/docs/
+/venv/
