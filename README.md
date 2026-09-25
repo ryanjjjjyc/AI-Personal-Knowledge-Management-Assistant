@@ -41,3 +41,25 @@ pip install "python-jose" "bcrypt"
 ```bash
 pip install python-dotenv
 ```
+
+## 7. Create the `docs/` folder
+
+Create a `docs/` folder at the project root and put the documents you want the RAG backend to index inside it.
+
+**Supported formats:**
+- `.pdf`
+- `.md`
+- `.txt`
+
+Any other file type will be ignored by the loader.
+
+
+## 8. Create the `.env` file
+Create a `.env` file at the project root:
+
+```env
+SECRET_KEY=
+ADMIN_USERNAME=
+ADMIN_PASSWORD_HASH=
+ACCESS_TOKEN_EXPIRE_MINUTES=
+```
